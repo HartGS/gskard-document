@@ -9,8 +9,8 @@ const config = {
     v4: true,
   },
 
-  markdown : {
-    format : 'md'
+  markdown: {
+    format: 'md'
   },
 
   url: 'https://hartgs.yw-games.top',
@@ -45,69 +45,102 @@ const config = {
     ],
   ],
 
-  themeConfig:
-    /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
-    ({
-      image: 'img/docusaurus-social-card.jpg',
-      navbar: {
-        title: 'GsKard',
-        logo: {
-          alt: 'My Site Logo',
-          src: 'img/logo.svg',
-        },
-        items: [
-          {
-            type: 'docSidebar',
-            sidebarId: 'kardSidebar',
-            position: 'left',
-            label: '搞牌',
-          },
-          // { to: '/blog', label: '博客', position: 'left' },
-          {
-            href: 'https://github.com/HartGS/gskard-document',
-            label: 'GitHub',
-            position: 'right',
-          },
-        ],
-      },
-      footer: {
-        style: 'dark',
-        links: [
-          {
-            title: '文档',
-            items: [
-              {
-                label: '搞牌文档',
-                to: '/docs/kard',
-              },
-            ],
-          },
-          {
-            title: '社交媒体',
-            items: [
-              {
-                label: 'BiliBili',
-                href: 'https://space.bilibili.com/1787505100',
-              },
+  plugins: [
+    'plugin-image-zoom'
+  ],
 
-              {
-                label: 'QQ',
-                href: 'https://qm.qq.com/q/2I8d9EHsIU',
-              },
-              {
-                label: 'MineBBS',
-                href: 'https://www.minebbs.com/resources/gskard-pvp-pve.10186',
-              },
-            ],
-          }
-        ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+  themes: [
+    [
+      require.resolve("@easyops-cn/docusaurus-search-local"),
+      /** @type {import("@easyops-cn/docusaurus-search-local").PluginOptions} */
+      ({
+        hashed: true,
+        language: ["zh"],
+        highlightSearchTermsOnTargetPage: true,
+        explicitSearchResultPath: true,
+      }),
+    ]
+  ],
+
+  themeConfig: {
+
+    image: 'img/docusaurus-social-card.jpg',
+    navbar: {
+      title: 'HartGS',
+      logo: {
+        alt: 'My Site Logo',
+        src: 'img/logo.svg',
       },
-      prism: {
-        theme: prismThemes.github,
-        darkTheme: prismThemes.dracula,
+      items: [
+        {
+          type: 'docSidebar',
+          sidebarId: 'kardSidebar',
+          position: 'left',
+          label: '地图',
+        },
+        // { to: '/blog', label: '博客', position: 'left' },
+        {
+          href: 'https://qm.qq.com/q/2I8d9EHsIU',
+          label: 'QQ',
+          position: "right"
+        },
+        {
+          href: 'https://www.minebbs.com/resources/gskard-pvp-pve.10186',
+          label: 'MineBBS',
+          position: "right"
+        },
+        {
+          href: 'https://github.com/HartGS/gskard-document',
+          label: 'GitHub',
+          position: 'right',
+        },
+      ],
+    },
+    footer: {
+      style: 'dark',
+      links: [
+        {
+          title: '文档',
+          items: [
+            {
+              label: '搞牌文档',
+              to: '/docs/kard/intro',
+            },
+          ],
+        },
+        {
+          title: '社交媒体',
+          items: [
+            {
+              label: 'BiliBili',
+              href: 'https://space.bilibili.com/1787505100',
+            },
+
+            {
+              label: 'QQ',
+              href: 'https://qm.qq.com/q/2I8d9EHsIU',
+            },
+            {
+              label: 'MineBBS',
+              href: 'https://www.minebbs.com/resources/gskard-pvp-pve.10186',
+            },
+          ],
+        }
+      ],
+      copyright: `Copyright © ${new Date().getFullYear()} HartGS`,
+    },
+    prism: {
+      theme: prismThemes.github,
+      darkTheme: prismThemes.dracula,
+    },
+    zoom: {
+      selector: '.markdown :not(em) > img',
+      background: {
+        light: 'rgb(255, 255, 255)',
+        dark: 'rgb(50, 50, 50)',
       },
-    }),
+    },
+  },
 };
 
 export default config;

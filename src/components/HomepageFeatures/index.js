@@ -4,32 +4,32 @@ import styles from './styles.module.css';
 
 const FeatureList = [
   {
-    title: 'Easy to Use',
+    title: '回合制卡牌对战',
     Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        GSKard是一张回合制的卡牌PVP+PVE地图。在这里，你可以通过运营不断积累优势，
+        击溃对手，也能凭借运气创造奇迹。
       </>
     ),
   },
   {
-    title: 'Focus on What Matters',
+    title: '策略与随机并重',
     Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        注重随机性的同时保持策略深度。你可以调整用牌顺序打出绝佳效果，
+        也可以进行精彩的博弈和预判，见招拆招。
       </>
     ),
   },
   {
-    title: 'Powered by React',
+    title: '团队协作交流',
     Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        队伍的协作和交流必不可少。交流战术并分配卡牌与K点，
+        一击制敌，这亦是游戏特色。
       </>
     ),
   },
