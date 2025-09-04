@@ -13,7 +13,7 @@ const config = {
     format : 'md'
   },
 
-  url: 'https://gskard.yw-games.top',
+  url: 'https://hartgs.yw-games.top',
   baseUrl: '/',
 
   organizationName: 'HartGS',
