@@ -77,8 +77,8 @@ const config = {
             title: '文档',
             items: [
               {
-                label: 'Tutorial',
-                to: '/docs/intro',
+                label: '搞牌文档',
+                to: '/docs/kard',
               },
             ],
           },
