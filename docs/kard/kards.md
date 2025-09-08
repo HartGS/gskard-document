@@ -528,7 +528,7 @@ description: 卡牌百科
 ### [<font color="#7030a0">整修</font>] 6K
 你抽两张装备牌。
 
-### [<font color="#7030a0">生产令</font>] 6
+### [<font color="#7030a0">生产令</font>] 6K
 你获得2点Kmax，下回合开始时多抽两张牌。
 
 ### [<font color="#7030a0">起死回生</font>] 6K
