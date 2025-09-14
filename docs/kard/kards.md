@@ -349,7 +349,7 @@ description: 卡牌百科
 获得一把重锤。（5伤害 0.8攻击速度）
 
 ### [<font color="#ffc505">弩</font>] 8K
-获得一把弩。（拿在手上自动装填 7~9，装填速度2.5秒）
+获得一把弩 (拿在手上自动装填 装填速度2.5秒)
 
 ### [<font color="#ffc505">下界合金升级</font>] 8K
 获得一件下界合金装备。（全套20护甲值+12盔甲韧性+40%击退抗性）
@@ -619,9 +619,6 @@ description: 卡牌百科
 ### [<span style="background:#000000"><font color="#f2f2f2">灵魂割舍</font></span>] 5K
 立即斩杀敌方所有生命值低于25❤的玩家。（临时生命提供的HP也会被计算在内）
 
-### [<span style="background:#000000"><font color="#f2f2f2">绝处逢生</font></span>] 10K
-恢复自身的所有生命值。（瞬间治疗）
-
 ### [<span style="background:#000000"><font color="#f2f2f2">凌驾</font></span>] 10K
 获得一张[君临天下]。
 "<Hart_GS> AT你过来一下，过来一下"
@@ -643,6 +640,8 @@ description: 卡牌百科
 ### [<span style="background:#000000"><font color="#f2f2f2">来日偿还</font></span>] 5Kmax
 记录你自身在上回合和本回合受到的伤害总额，使用后持续对敌方全体造成等额的伤害（该伤害将会分摊至每一名存活的敌方玩家，并具有高额击退），且实时计算。（该卡的效果一回合只能触发一次）
 
+### [<span style="background:#000000"><font color="#f2f2f2">绝处逢生</font></span>] 10Kmax
+恢复自身的所有生命值 (瞬间治疗)
 
 
 ## <font color="#00b0f0">**陷阱牌**</font>
