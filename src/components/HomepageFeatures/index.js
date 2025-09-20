@@ -5,7 +5,7 @@ import styles from './styles.module.css';
 const FeatureList = [
   {
     title: '回合制卡牌对战',
-    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
+    image: require('@site/static/img/music_disc_13.png').default,
     description: (
       <>
         GSKard是一张回合制的卡牌PVP+PVE地图。在这里，你可以通过运营不断积累优势，
@@ -15,7 +15,7 @@ const FeatureList = [
   },
   {
     title: '策略与随机并重',
-    Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
+    image: require('@site/static/img/music_disc_cat.png').default,
     description: (
       <>
         注重随机性的同时保持策略深度。你可以调整用牌顺序打出绝佳效果，
@@ -25,7 +25,7 @@ const FeatureList = [
   },
   {
     title: '团队协作交流',
-    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+    image: require('@site/static/img/music_disc_strad.png').default,
     description: (
       <>
         队伍的协作和交流必不可少。交流战术并分配卡牌与K点，
@@ -35,11 +35,11 @@ const FeatureList = [
   },
 ];
 
-function Feature({Svg, title, description}) {
+function Feature({image, title, description}) {
   return (
     <div className={clsx('col col--4')}>
       <div className="text--center">
-        <Svg className={styles.featureSvg} role="img" />
+        <img src={image} className={styles.featureSvg} alt={title} />
       </div>
       <div className="text--center padding-horiz--md">
         <Heading as="h3">{title}</Heading>

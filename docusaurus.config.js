@@ -2,7 +2,7 @@ import { themes as prismThemes } from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'GsKard 文档',
+  title: 'GSkard 文档',
   tagline: '牌佬下场了？',
   favicon: 'img/favicon.ico',
   future: {
@@ -63,13 +63,12 @@ const config = {
   ],
 
   themeConfig: {
-
     image: 'img/docusaurus-social-card.jpg',
     navbar: {
       title: 'HartGS',
       logo: {
         alt: 'My Site Logo',
-        src: 'img/logo.svg',
+        src: 'img/hart_gs_avatar.png',
       },
       items: [
         {
@@ -90,6 +89,11 @@ const config = {
           position: "right"
         },
         {
+          href: 'https://docs.qq.com/smartsheet/DWHp5SWxGWGt5Q1RO',
+          label: 'BUG反馈',
+          position: "right"
+        },
+        {
           href: 'https://github.com/HartGS/gskard-document',
           label: 'GitHub',
           position: 'right',
@@ -97,7 +101,7 @@ const config = {
       ],
     },
     footer: {
-      style: 'dark',
+      style: 'light',
       links: [
         {
           title: '文档',
