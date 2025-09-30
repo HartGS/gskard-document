@@ -77,6 +77,11 @@ const config = {
           position: 'left',
           label: '地图',
         },
+        {
+          to: '/downloads',
+          position: 'left',
+          label: '下载',
+        },
         // { to: '/blog', label: '博客', position: 'left' },
         {
           href: 'https://qm.qq.com/q/2I8d9EHsIU',
